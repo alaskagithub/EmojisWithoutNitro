@@ -1,10 +1,10 @@
 /**
  * @name EmojisWithoutNitro
- * @version 1.7
+ * @version 1.0
  * @description Send Nitro emojis in a form of a link [64px]
- * @author An0
- * @source https://github.com/An00nymushun/DiscordFreeEmojis
- * @updateUrl https://raw.githubusercontent.com/An00nymushun/DiscordFreeEmojis/main/DiscordFreeEmojis64px.plugin.js
+ * @author Alaska
+ * @source https://github.com/alaskadiscord/EmojisWithoutNitro
+ * @updateUrl https://raw.githubusercontent.com/alaskadiscord/EmojisWithoutNitro/main/EmojisWhithoutNitro.js
  */
 
 /*@cc_on
@@ -28,7 +28,7 @@
 @else @*/
 
 
-var FreeEmojis = (() => {
+var EmojisWithoutNitro = (() => {
 
     'use strict';
     
@@ -36,9 +36,9 @@ var FreeEmojis = (() => {
     
     var Discord;
     var Utils = {
-        Log: (message) => { console.log(`%c[FreeEmojis] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
-        Warn: (message) => { console.warn(`%c[FreeEmojis] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
-        Error: (message) => { console.error(`%c[FreeEmojis] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
+        Log: (message) => { console.log(`%c[EmojisWithoutNitro] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
+        Warn: (message) => { console.warn(`%c[EmojisWithoutNitro] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
+        Error: (message) => { console.error(`%c[EmojisWithoutNitro] %c${message}`, `color:${BaseColor};font-weight:bold`, "") },
         Webpack: () => {
             let webpackExports;
     
@@ -182,11 +182,11 @@ var FreeEmojis = (() => {
     }
     
     return function() { return {
-        getName: () => "DiscordFreeEmojis",
-        getShortName: () => "FreeEmojis",
+        getName: () => "EmojisWithoutNitro",
+        getShortName: () => "EMN",
         getDescription: () => "Link emojis if you don't have nitro! Type them out or use the emoji picker! [64px]",
-        getVersion: () => "1.7",
-        getAuthor: () => "An0",
+        getVersion: () => "1.0",
+        getAuthor: () => "Alaska",
     
         start: Start,
         stop: Stop
