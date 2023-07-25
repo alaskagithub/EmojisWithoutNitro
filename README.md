@@ -1,5 +1,7 @@
 # EmojisWithoutNitro
 A BetterDiscord plugin for free emojis.
+
+
 MIT License
 
 Copyright (c) 2022 Addi
