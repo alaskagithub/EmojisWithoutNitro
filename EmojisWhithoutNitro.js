@@ -3,8 +3,8 @@
  * @version 1.0
  * @description Send Nitro emojis in a form of a link [64px]
  * @author Alaska
- * @source https://github.com/alaskadiscord/EmojisWithoutNitro
- * @updateUrl https://raw.githubusercontent.com/alaskadiscord/EmojisWithoutNitro/main/EmojisWhithoutNitro.js
+ * @source https://github.com/alaskagithub/EmojisWithoutNitro
+ * @updateUrl https://raw.githubusercontent.com/alaskagithub/EmojisWithoutNitro/main/EmojisWhithoutNitro.js
  */
 
 /*@cc_on
